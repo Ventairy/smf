@@ -19,7 +19,7 @@ jobs:
     if: startsWith(github.ref_name, 'smf_hooks-v')
     permissions:
       id-token: write
-    uses: dart-lang/setup-dart/.github/workflows/publish.yml@65eb853c7ba17dde3be364c3d2858773e7144260 # v1.7.2
+    uses: dart-lang/setup-dart/.github/workflows/publish.yml@7654d458321ee25acccccfdb86cd48bd95768ff1 # v1.8.0
     with:
       environment: pub.dev
       working-directory: packages/smf_hooks
@@ -29,7 +29,7 @@ jobs:
     if: startsWith(github.ref_name, 'smf_engine-v')
     permissions:
       id-token: write
-    uses: dart-lang/setup-dart/.github/workflows/publish.yml@65eb853c7ba17dde3be364c3d2858773e7144260 # v1.7.2
+    uses: dart-lang/setup-dart/.github/workflows/publish.yml@7654d458321ee25acccccfdb86cd48bd95768ff1 # v1.8.0
     with:
       environment: pub.dev
       working-directory: packages/smf_engine
@@ -39,7 +39,7 @@ jobs:
     if: startsWith(github.ref_name, 'smf_cli-v')
     permissions:
       id-token: write
-    uses: dart-lang/setup-dart/.github/workflows/publish.yml@65eb853c7ba17dde3be364c3d2858773e7144260 # v1.7.2
+    uses: dart-lang/setup-dart/.github/workflows/publish.yml@7654d458321ee25acccccfdb86cd48bd95768ff1 # v1.8.0
     with:
       environment: pub.dev
       working-directory: packages/smf_cli
